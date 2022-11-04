@@ -1,0 +1,70 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+ 
+local Window = Rayfield:CreateWindow({
+	Name = "Psx Hub",
+	LoadingTitle = "PSX Hub",
+	LoadingSubtitle = "by Vex",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = "psx Hub",
+		FileName = "Psx"
+	},
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "PSX Hub",
+		Subtitle = "Key System",
+		Note = "Join the discord (discord.gg/9vfDf57n)",
+		SaveKey = true,
+		Key = "Vex is a w"
+	}
+})
+ 
+ 
+ 
+local Tab = Window:CreateTab("Scam script") -- Title, Image
+ 
+local Section = Tab:CreateSection("Scam script")
+ 
+local Button = Tab:CreateButton({
+	Name = "Click here for scam",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/p4KxMDqB"))()
+	end,
+})
+ 
+ 
+local Tab = Window:CreateTab("Farms") -- Title, Image
+ 
+local Section = Tab:CreateSection("Farms")
+ 
+local Button = Tab:CreateButton({
+	Name = "Click here for Bk hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+	end,
+})
+ 
+local Button = Tab:CreateButton({
+	Name = "Click here for All farms",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
+	end,
+})
+ 
+local Tab = Window:CreateTab("Fun!") -- Title, Image
+ 
+local Section = Tab:CreateSection("Fun!")
+ 
+local Button = Tab:CreateButton({
+	Name = "Click here for infite yeild",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end,
+})
+ 
+local Button = Tab:CreateButton({
+	Name = "Click here for Domain X",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+	end,
+})
